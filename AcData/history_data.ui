@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>history_data</class>
+ <widget class="QWidget" name="history_data">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1159</width>
+    <height>653</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>history_data</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_3">
+   <item row="0" column="0">
+    <spacer name="horizontalSpacer">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="sizeType">
+      <enum>QSizePolicy::Fixed</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>10</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="0" column="1" rowspan="2" colspan="3">
+    <widget class="QWChartView" name="chartView">
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>300</height>
+      </size>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="4">
+    <spacer name="horizontalSpacer_2">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="sizeType">
+      <enum>QSizePolicy::Fixed</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>10</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="2" column="0" colspan="2">
+    <widget class="QWidget" name="widget" native="true">
+     <layout class="QGridLayout" name="gridLayout_2">
+      <item row="0" column="0" rowspan="4">
+       <widget class="QTextBrowser" name="textBrowser">
+        <property name="minimumSize">
+         <size>
+          <width>300</width>
+          <height>200</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QPushButton" name="pushButton">
+        <property name="minimumSize">
+         <size>
+          <width>150</width>
+          <height>35</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>开始采集</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QPushButton" name="pushButton_2">
+        <property name="minimumSize">
+         <size>
+          <width>150</width>
+          <height>35</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>停止采集</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="1">
+       <widget class="QPushButton" name="pushButton_3">
+        <property name="minimumSize">
+         <size>
+          <width>150</width>
+          <height>35</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>返回主界面</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="2" column="2">
+    <spacer name="horizontalSpacer_6">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>103</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="2" column="3" colspan="2">
+    <widget class="QWidget" name="widget_2" native="true">
+     <layout class="QGridLayout" name="gridLayout">
+      <item row="0" column="0">
+       <widget class="QRadioButton" name="radioButton">
+        <property name="minimumSize">
+         <size>
+          <width>150</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>新刀样本采集</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <spacer name="horizontalSpacer_4">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item row="0" column="2">
+       <widget class="QPushButton" name="pushButton_4">
+        <property name="minimumSize">
+         <size>
+          <width>150</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>清空新刀样本</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QRadioButton" name="radioButton_2">
+        <property name="minimumSize">
+         <size>
+          <width>150</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>崩刃样本采集</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <spacer name="horizontalSpacer_5">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item row="1" column="2">
+       <widget class="QPushButton" name="pushButton_5">
+        <property name="minimumSize">
+         <size>
+          <width>150</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>清空崩刃样本</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="0" colspan="2">
+       <spacer name="horizontalSpacer_3">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>117</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item row="2" column="2">
+       <widget class="QPushButton" name="pushButton_6">
+        <property name="minimumSize">
+         <size>
+          <width>150</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>训练模型</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+  <widget class="QLabel" name="lab">
+   <property name="geometry">
+    <rect>
+     <x>25</x>
+     <y>457</y>
+     <width>16</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <action name="actZoomIn">
+   <property name="text">
+    <string>放大</string>
+   </property>
+   <property name="toolTip">
+    <string>放大</string>
+   </property>
+  </action>
+  <action name="actZoomOut">
+   <property name="text">
+    <string>缩小</string>
+   </property>
+   <property name="toolTip">
+    <string>缩小</string>
+   </property>
+  </action>
+  <action name="actQuit">
+   <property name="text">
+    <string>退出</string>
+   </property>
+  </action>
+  <action name="actZoomReset">
+   <property name="text">
+    <string>原始尺寸</string>
+   </property>
+   <property name="toolTip">
+    <string>原始尺寸</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>QWChartView</class>
+   <extends>QGraphicsView</extends>
+   <header location="global">qwchartview.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
